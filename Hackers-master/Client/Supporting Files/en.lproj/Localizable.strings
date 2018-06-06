@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  Hackers
+
+  Created by Daniil Vorobyev on 22.05.2018.
+  Copyright © 2018 Glass Umbrella. All rights reserved.
+*/
+
+"hacker.news" = "Hacker news";
+"top" = "Top";
+"ask" = "Ask";
+"jobs" = "Jobs";
+"new" = "New";
+"comments" = "Comments";
+"settings" = "Settings";
