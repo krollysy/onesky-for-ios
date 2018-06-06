@@ -8,13 +8,13 @@
 Pod::Spec.new do |s|
 
   s.name         = "OneSky"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "locale framework by OneSky"
   s.homepage     = "Oneskyapp.com"
   s.license      = "MIT"
   s.author       = { "Daniil Vorobyev" => "daniil.vorobyev@umbrella-web.com" }
   s.platform     = :ios, "10.0"
-  s.source       = { :git => "https://github.com/onesky/onesky-sdk-ios.git" }
+  s.source       = { :git => "https://github.com/onesky/onesky-for-ios.git" }
   s.ios.deployment_target = "10.0"
   #s.ios.vendored_frameworks = "OneSky.framework"
   s.ios.resource_bundle = { 'Resources' => 'OneSky/*.xcassets' }
