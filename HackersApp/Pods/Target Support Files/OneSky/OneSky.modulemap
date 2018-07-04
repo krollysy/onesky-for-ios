@@ -1,0 +1,6 @@
+framework module OneSky {
+  umbrella header "OneSky-umbrella.h"
+
+  export *
+  module * { export * }
+}

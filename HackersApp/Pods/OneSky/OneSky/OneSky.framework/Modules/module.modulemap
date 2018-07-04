@@ -1,0 +1,11 @@
+framework module OneSky {
+  umbrella header "OneSky.h"
+
+  export *
+  module * { export * }
+}
+
+module OneSky.Swift {
+    header "OneSky-Swift.h"
+    requires objc
+}
