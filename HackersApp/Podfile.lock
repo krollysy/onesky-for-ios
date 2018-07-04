@@ -1,0 +1,138 @@
+PODS:
+  - Ably (1.0.14):
+    - KSCrashAblyFork (= 1.15.8-ably-2)
+    - msgpack (= 0.1.8)
+    - SocketRocket (= 0.5.1)
+  - DZNEmptyDataSet (1.8.1)
+  - Kingfisher (4.8.0)
+  - KSCrashAblyFork (1.15.8-ably-2):
+    - KSCrashAblyFork/Installations (= 1.15.8-ably-2)
+  - KSCrashAblyFork/Installations (1.15.8-ably-2):
+    - KSCrashAblyFork/Recording
+    - KSCrashAblyFork/Reporting
+  - KSCrashAblyFork/Recording (1.15.8-ably-2):
+    - KSCrashAblyFork/Recording/Tools (= 1.15.8-ably-2)
+  - KSCrashAblyFork/Recording/Tools (1.15.8-ably-2)
+  - KSCrashAblyFork/Reporting (1.15.8-ably-2):
+    - KSCrashAblyFork/Recording
+    - KSCrashAblyFork/Reporting/Filters (= 1.15.8-ably-2)
+    - KSCrashAblyFork/Reporting/MessageUI (= 1.15.8-ably-2)
+    - KSCrashAblyFork/Reporting/Sinks (= 1.15.8-ably-2)
+    - KSCrashAblyFork/Reporting/Tools (= 1.15.8-ably-2)
+  - KSCrashAblyFork/Reporting/Filters (1.15.8-ably-2):
+    - KSCrashAblyFork/Recording
+    - KSCrashAblyFork/Reporting/Filters/Alert (= 1.15.8-ably-2)
+    - KSCrashAblyFork/Reporting/Filters/AppleFmt (= 1.15.8-ably-2)
+    - KSCrashAblyFork/Reporting/Filters/Base (= 1.15.8-ably-2)
+    - KSCrashAblyFork/Reporting/Filters/Basic (= 1.15.8-ably-2)
+    - KSCrashAblyFork/Reporting/Filters/GZip (= 1.15.8-ably-2)
+    - KSCrashAblyFork/Reporting/Filters/JSON (= 1.15.8-ably-2)
+    - KSCrashAblyFork/Reporting/Filters/Sets (= 1.15.8-ably-2)
+    - KSCrashAblyFork/Reporting/Filters/Stringify (= 1.15.8-ably-2)
+    - KSCrashAblyFork/Reporting/Filters/Tools (= 1.15.8-ably-2)
+  - KSCrashAblyFork/Reporting/Filters/Alert (1.15.8-ably-2):
+    - KSCrashAblyFork/Recording
+    - KSCrashAblyFork/Reporting/Filters/Base
+  - KSCrashAblyFork/Reporting/Filters/AppleFmt (1.15.8-ably-2):
+    - KSCrashAblyFork/Recording
+    - KSCrashAblyFork/Reporting/Filters/Base
+  - KSCrashAblyFork/Reporting/Filters/Base (1.15.8-ably-2):
+    - KSCrashAblyFork/Recording
+  - KSCrashAblyFork/Reporting/Filters/Basic (1.15.8-ably-2):
+    - KSCrashAblyFork/Recording
+    - KSCrashAblyFork/Reporting/Filters/Base
+  - KSCrashAblyFork/Reporting/Filters/GZip (1.15.8-ably-2):
+    - KSCrashAblyFork/Recording
+    - KSCrashAblyFork/Reporting/Filters/Base
+  - KSCrashAblyFork/Reporting/Filters/JSON (1.15.8-ably-2):
+    - KSCrashAblyFork/Recording
+    - KSCrashAblyFork/Reporting/Filters/Base
+  - KSCrashAblyFork/Reporting/Filters/Sets (1.15.8-ably-2):
+    - KSCrashAblyFork/Recording
+    - KSCrashAblyFork/Reporting/Filters/AppleFmt
+    - KSCrashAblyFork/Reporting/Filters/Base
+    - KSCrashAblyFork/Reporting/Filters/Basic
+    - KSCrashAblyFork/Reporting/Filters/GZip
+    - KSCrashAblyFork/Reporting/Filters/JSON
+    - KSCrashAblyFork/Reporting/Filters/Stringify
+  - KSCrashAblyFork/Reporting/Filters/Stringify (1.15.8-ably-2):
+    - KSCrashAblyFork/Recording
+    - KSCrashAblyFork/Reporting/Filters/Base
+  - KSCrashAblyFork/Reporting/Filters/Tools (1.15.8-ably-2):
+    - KSCrashAblyFork/Recording
+  - KSCrashAblyFork/Reporting/MessageUI (1.15.8-ably-2):
+    - KSCrashAblyFork/Recording
+  - KSCrashAblyFork/Reporting/Sinks (1.15.8-ably-2):
+    - KSCrashAblyFork/Recording
+    - KSCrashAblyFork/Reporting/Filters
+    - KSCrashAblyFork/Reporting/Tools
+  - KSCrashAblyFork/Reporting/Tools (1.15.8-ably-2):
+    - KSCrashAblyFork/Recording
+  - libHN (4.1.0)
+  - msgpack (0.1.8)
+  - OneSky (1.1.5):
+    - Ably
+    - Siesta (~> 1.3.1)
+  - PromiseKit (4.5.2):
+    - PromiseKit/Foundation (= 4.5.2)
+    - PromiseKit/QuartzCore (= 4.5.2)
+    - PromiseKit/UIKit (= 4.5.2)
+  - PromiseKit/CorePromise (4.5.2)
+  - PromiseKit/Foundation (4.5.2):
+    - PromiseKit/CorePromise
+  - PromiseKit/QuartzCore (4.5.2):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (4.5.2):
+    - PromiseKit/CorePromise
+  - Siesta (1.3.1):
+    - Siesta/Core (= 1.3.1)
+  - Siesta/Core (1.3.1)
+  - SkeletonView (1.1.1)
+  - SocketRocket (0.5.1)
+
+DEPENDENCIES:
+  - DZNEmptyDataSet
+  - Kingfisher
+  - libHN (from `https://github.com/weiran/libHN`)
+  - OneSky
+  - PromiseKit (~> 4.x)
+  - SkeletonView (= 1.1.1)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Ably
+    - DZNEmptyDataSet
+    - Kingfisher
+    - KSCrashAblyFork
+    - msgpack
+    - OneSky
+    - PromiseKit
+    - Siesta
+    - SkeletonView
+    - SocketRocket
+
+EXTERNAL SOURCES:
+  libHN:
+    :git: https://github.com/weiran/libHN
+
+CHECKOUT OPTIONS:
+  libHN:
+    :commit: ca79b491f594a851825db9bf0e99235b2863b71c
+    :git: https://github.com/weiran/libHN
+
+SPEC CHECKSUMS:
+  Ably: 45871a496ca61aab730eaab06255656381f782ab
+  DZNEmptyDataSet: 9525833b9e68ac21c30253e1d3d7076cc828eaa7
+  Kingfisher: 976d828df2b24834c6a3f2fc4d82cdbd26552be1
+  KSCrashAblyFork: d356f10dcde9359db775334e38e93a48df6508f7
+  libHN: fe671e9d39466235239b793f1f0181baadb327b2
+  msgpack: 97491d2ea799408f4694f2c7d7fd79baf77853dd
+  OneSky: ee0e8940a54bf2110dff256f037627a033783047
+  PromiseKit: 743e497a5f505a470d3bbbf4ce0663c1268af0a4
+  Siesta: 47460ba8b964881b7db532a0e640a6c703959c23
+  SkeletonView: 041053e904504e7d8db83df166e599be75659fe1
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
+
+PODFILE CHECKSUM: ac4dbf989aaa04a33ed95a946363a7ba6afe98d7
+
+COCOAPODS: 1.5.0
